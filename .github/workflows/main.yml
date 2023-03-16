@@ -29,7 +29,7 @@ jobs:
               id: Build
               env:
                   FrameworkPathOverride: /usr/lib/mono/4.8-api
-              run: dotnet build BeatLeader.csproj --configuration Release
+              run: dotnet build BeatLeader.sln --configuration Release
             - name: GitStatus
               run: git status
             - name: Echo Filename
