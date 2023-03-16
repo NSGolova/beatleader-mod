@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <OutputType>Library</OutputType>
-    <LocalRefsDir Condition="Exists('.\Refs')">.\Refs</LocalRefsDir>
+    <LocalRefsDir Condition="Exists('Refs')">Refs</LocalRefsDir>
     <BeatSaberDir>$(LocalRefsDir)</BeatSaberDir>
     <AppOutputBase>$(MSBuildProjectDirectory)\</AppOutputBase>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
