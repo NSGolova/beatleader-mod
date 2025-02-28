@@ -22,7 +22,7 @@ jobs:
                   token: ${{ github.token }}
                   repo: beat-forge/beatsaber-stripped
             - name: Download Mod Dependencies
-              uses: Goobwabber/download-beatmods-deps@main
+              uses: NSGolova/download-beatmods-deps@main
               with:
                   manifest: ${{ github.workspace }}/Source/manifest.json
             - name: Build
